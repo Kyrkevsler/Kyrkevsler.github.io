@@ -90,7 +90,158 @@ main {
     color: var(--Soft-red);
 }
 
+/* || Hero Section Selectors */
+.main_container {
+    display: flex;
+    flex-direction: row;
+}
 
+.hero_image {
+    width: 60rem;
+    height: auto;
+}
+
+.hero_content {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero_content h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    padding: 2rem;
+    width: 29rem;
+}
+
+.hero_description {
+    margin-top: 3rem;
+}
+
+.hero_description p {
+    width: 26rem;
+    margin-bottom: 2.8rem;
+    font-size: 1.2rem;
+    color: var(--Darkgrayish-blue);
+    text-align: start;
+    line-height: 2rem;
+}
+
+.hero_description button {
+    background-color: var(--Soft-red);
+    color: var(--Off-white);
+    font-weight: 700;
+    letter-spacing: 3px;
+    width: 10rem;
+    height: 3rem;
+    padding: 1rem;
+    border: none;
+}
+
+/* || Hero Section Hover States */
+
+.hero_description button:hover {
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+/* || News Aside Section Selectors */
+
+.aside_section {
+    width: 25rem;
+    margin-left: 2.5rem;
+    background-color: var(--Verydark-blue);
+    outline: auto;
+}
+
+.aside_section h2 {
+    font-size: 2.5rem;
+    margin: 1.5rem auto -1rem 13%;
+    color: var(--Soft-orange);
+}
+
+.aside_list {
+    width: 80%;
+    margin: 8% auto auto 10%;
+    padding: 1rem;
+    line-height: 30px;
+    border-bottom: 1px solid rgb(197, 198, 206, 0.5);
+    /* outline: auto; */
+}
+
+.aside_list h5 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: var(--Off-white);
+}
+
+.aside_list p {
+    color: var(--Grayish-blue);
+}
+
+/* || News Aside Section Hover States */
+
+.aside_list h5:hover {
+    color: var(--Soft-orange);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+/* || News Section Selectors */
+.news_series {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+
+.news {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.5rem;
+    max-width: 28.5rem;
+    box-shadow: 2px 3px 5px var(--Grayish-blue);
+}
+
+.news img {
+    width: 200px;
+    height: auto;
+}
+
+.news div {
+    padding: 1rem;
+}
+
+.news div h4 {
+    font-size: 3rem;
+    color: var(--Grayish-blue);
+    margin-bottom: 1rem;
+}
+
+.news div h5 {
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.news div p {
+    color: var(--Darkgrayish-blue);
+    line-height: 1.5rem;
+}
+
+/* || News Section Hover States*/
+.news div h5:hover {
+    color: var(--Soft-red);
+    cursor: pointer;
+}
+
+.news:hover {
+    transform: translateY(-2rem);
+    transition: all 0.5s ease-in-out;
+    box-shadow: 2px 3px 5px var(--Soft-red);
+    color: var(--Soft-red);
+    cursor: pointer;
+}
 
 
 
