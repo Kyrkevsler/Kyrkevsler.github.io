@@ -54,7 +54,41 @@ main {
     padding: 0.5rem;
 }
 
+/* || Navigation Bar Selectors */
+.nav_bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem;
+}
 
+.news_logo {
+    width: 75px;
+}
+
+.nav_lists {
+    display: flex;
+    flex-direction: row;
+    margin-left: 48rem;
+    list-style: none;
+}
+
+.nav_lists li {
+    margin-left: 3.5rem;
+}
+
+.nav_lists li a {
+    text-decoration: none;
+    color: var(--Darkgrayish-blue);
+}
+
+/* || Navigation Hover States */
+
+.nav_lists li a:hover {
+    font-weight: 700;
+    transition: all 0.5s;
+    color: var(--Soft-red);
+}
 
 
 
